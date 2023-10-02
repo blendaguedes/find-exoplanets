@@ -1,0 +1,59 @@
+## Experimentos A ##
+## 100 épocas
+## 0.01 Taxa de aprendizado
+## Semente de controle PyTorch = 5
+## Otimizador Adam, com valores padroes
+## Loss Function MSE
+## Com 70% dos dados para treinamento, 15% para validação e 15% para testes
+
+
+PerceptronNone
+Evaluation Metrics:
+Accuracy: 0.9521367521367521
+Recall: 0.9397394136807817
+Precision: 0.9681208053691275
+F1 Score: 0.9537190082644628
+Confusion Matrix:
+TN,  FP, FN, TP
+[537  19  37 577]
+-----------------------------------------------------------
+NN2HiddenLayerReLU()
+Evaluation Metrics:
+Accuracy: 0.9555555555555556
+Recall: 0.9511400651465798
+Precision: 0.9636963696369637
+F1 Score: 0.9573770491803277
+Confusion Matrix:
+TN,  FP, FN, TP
+[534  22  30 584]
+-----------------------------------------------------------
+NN3HiddenLayerSigmoid()
+Evaluation Metrics:
+Accuracy: 0.9555555555555556
+Recall: 0.9478827361563518
+Precision: 0.9667774086378738
+F1 Score: 0.9572368421052632
+Confusion Matrix:
+TN,  FP, FN, TP
+[536  20  32 582]
+-----------------------------------------------------------
+NN3HiddenLayerTanh()
+Evaluation Metrics:
+Accuracy: 0.9555555555555556
+Recall: 0.9511400651465798
+Precision: 0.9636963696369637
+F1 Score: 0.9573770491803277
+Confusion Matrix:
+TN,  FP, FN, TP
+[534  22  30 584]
+-----------------------------------------------------------
+NN3HiddenLayerReLU()
+Evaluation Metrics:
+Accuracy: 0.9564102564102565
+Recall: 0.9511400651465798
+Precision: 0.9652892561983472
+F1 Score: 0.9581624282198523
+Confusion Matrix:
+TN,  FP, FN, TP
+[535  21  30 584]
+-----------------------------------------------------------
